@@ -1,6 +1,6 @@
 //STEP 1: Array - 5 elements (fruits)
 let fruits = ["apple","banana", "cherry", "grapes", "kiwi"];
-console.log("initial array", fruits);
+console.log("initial array", fruits); //console.log to display Fruit Array 
 
 //STEP 2: REPLACING VALUE POSITION 1 AND 4
 fruits[1]= "Blueberry"; // Banana Replaced with Blueberry
@@ -12,7 +12,7 @@ fruits.unshift("avocado")
 fruits.push("Date")
 console.log("array after replacements", fruits);
 
-// Step 4: REMOCING ELEMENTS FROM BEGINNING AND END OF ARRAY
+// Step 4: REMOVING ELEMENTS FROM BEGINNING AND END OF ARRAY
 let firstFruit = fruits.shift(); // Remove the first element
 console.log("Removed first element:", firstFruit);
 let lastFruit = fruits.pop(); // Remove the last element
