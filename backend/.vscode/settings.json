@@ -1,9 +1,0 @@
-{
-    "terminal.integrated.sendKeybindingsToShell": true,
-    "terminal.integrated.suggest.enabled": true,
-    "terminal.integrated.commandsToSkipShell": [
-        "\"C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe\".",
-        "\"C:\\\\Windows\\\\System32\\\\cmd.exe\".",
-        "\"C:\\\\Program Files\\\\Git\\\\bin\\\\bash.exe\"."
-    ]
-}
