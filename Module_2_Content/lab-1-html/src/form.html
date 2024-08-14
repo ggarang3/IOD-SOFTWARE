@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Form page for user input">
+  <meta name="keywords" content="Form, Input, HTML, User Data">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Page</title>
+  <style>
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="form.html">Form</a>
+  </nav>
+  <form method="POST" action="http://127.0.0.1:5500/form.html">
+    <div>
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname">
+    </div>
+    <div>
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname">
+    </div>
+    <label>Favorite Coding Language:</label>
+    <div>
+      <input type="radio" id="language-js" name="language" value="JavaScript">
+      <label for="language-js">JavaScript</label>
+    </div>
+    <div>
+      <input type="radio" id="language-python" name="language" value="Python">
+      <label for="language-python">Python</label>
+    </div>
+    <div>
+      <input type="radio" id="language-java" name="language" value="Java">
+      <label for="language-java">Java</label>
+    </div>
+    <div>
+      <label>Types of Vehicles Owned:</label>
+      <div>
+        <input type="checkbox" id="vehicle-car" name="vehicle" value="Car">
+        <label for="vehicle-car">Car</label>
+      </div>
+      <div>
+        <input type="checkbox" id="vehicle-bike" name="vehicle" value="Bike">
+        <label for="vehicle-bike">Bike</label>
+      </div>
+      <div>
+        <input type="checkbox" id="vehicle-boat" name="vehicle" value="Boat">
+        <label for="vehicle-boat">Boat</label>
+      </div>
+      <label for="car-brand">Brand of Car Owned:</label>
+      <select id="car-brand" name="car-brand">
+        <option value="Toyota">Toyota</option>
+        <option value="Ford">Ford</option>
+        <option value="Honda">Honda</option>
+        <div>
+          <input type="submit" value="Submit">
+        </div>
+  </form>
+</body>
+
+</html>

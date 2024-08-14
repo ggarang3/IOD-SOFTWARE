@@ -1,0 +1,182 @@
+/* I. Selectors */
+
+/* Type Selector */
+article {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+/* Put styles for questions 1.1, 1.2, 1.3 and 1.4 here */
+/* Class Selector */
+.style-me1 {
+    color: red;
+}
+
+/* ID Selector */
+#style-me2 {
+    color: blue;
+}
+
+/* Specific Selector */
+.style-me1#style-me2 {
+    color: purple;
+}
+
+/* Put styles for questions 2.1 and 2.2 here */
+
+/* Descendant Combinator */
+.my-descendants-are-styled p {
+    background: red;
+}
+
+/* Child Combinator */
+.my-children-are-styled > p {
+    background: lightgreen;
+}
+
+/* II. Box model and common properties */
+/* Put styles for questions 1-8 here */
+.box  {
+    background-color: rgb(0, 122, 221);
+    margin: 20px;
+    padding: 20px;
+    border: 10px solid blue;
+    background-color: lightgrey;
+    width: 250px;
+    height: 300px;
+}
+.box{
+    border: 10px solid red; 
+    border: 10px dashed blue; 
+    box-sizing: border-box;
+    overflow: hidden;
+}
+   
+.box{ 
+    outline: 10px solid red;
+}
+
+.box {
+    border-radius: 20px;
+    background-image: url('./assets/images/img1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px; 
+    border: 1px solid black; 
+}
+
+
+/* III. Positioning */
+/* Put styles for questions 1-3 here */
+.position-absolute {
+    position: absolute;
+    top: 0; /* Fixes the element to the top of the page */
+    background-color: yellow; /* Background color for visibility */
+}
+
+/* Experimenting with 'top' and 'bottom' */
+.position-absolute-bottom {
+    position: absolute;
+    bottom: 0; /* Fixes the element to the bottom of the page */
+    background-color: yellow; /* Background color for visibility */
+}
+.position-relative {
+    position: relative;
+    background-color: lightblue; /* Different background color for visibility */
+}
+
+/* Absolute positioning within a relatively positioned element */
+.position-relative .position-absolute {
+    top: 10px; /* Position relative to the top of the relative container */
+    left: 10px; /* Position relative to the left of the relative container */
+    background-color: yellow; /* Background color for visibility */
+}
+
+.position-relative .position-absolute-right {
+    right: 10px; /* Position relative to the right of the relative container */
+    background-color: yellow; /* Background color for visibility */
+}
+.position-sticky {
+    position: sticky;
+    top: 20px; /* The element will "stick" when it reaches 20px from the top */
+    background-color: orange; /* Background color for visibility */
+}
+
+
+/* IV. Styling text */
+/* Put styles for questions 1-10 here */
+.text-style {
+    color: #4A90E2; /* A soft blue color */
+    font-size: 1.5em; /
+}
+.text-style {
+    font-size: 1.5em; /
+}
+.text-style {
+    line-height: 1.8; 
+}
+.text-style {
+    font-weight: 400; 
+}
+.sankofa-display-regular {
+    font-family: "Sankofa Display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.text-style {
+    text-align:center
+}
+.text-style {
+    letter-spacing:normal
+}
+.text-style {
+    word-spacing:20%
+}
+.text-style {
+    text-transform:uppercase
+}
+.text-style {
+    text-decoration:dotted
+}
+
+/* V. Styling links */
+/* Put styles for questions 1-3 here */
+a, a:link {
+    color: #4A90E2;
+    font-size: 16px; 
+    font-weight: 600; 
+    text-decoration: none; 
+}
+a:hover,
+a:active,
+a:focus {
+    color: #003366; 
+    text-decoration: underline; 
+}
+a:visited {
+    color: #551A8B; 
+    font-style: italic; 
+}
+
+
+/* VI. calc() */
+/* Put styles for questions 1-3 here */
+.calc-style {
+    width: calc(100vw - 100px); 
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+.fixed-width-col {
+    width: 350px;
+    display: inline-block;
+}
+
+.fluid-col {
+    display: inline-block;
+    width: calc(100% - 350px); 
+    padding-left: 10px;
+}

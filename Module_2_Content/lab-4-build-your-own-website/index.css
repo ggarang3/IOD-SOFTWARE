@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Flexbox Layout */
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+/* Box Model */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #eee;
+}
+
+/* Styling Text */
+p {
+    color: #666;
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+/* Styling Links */
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: #333;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 10px 0;
+}
