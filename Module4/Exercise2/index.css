@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .artist-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .artist-name {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .artist-bio {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-card {
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  .portfolio-title {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .portfolio-description {
+    font-size: 1.1em;
+  }
+  
