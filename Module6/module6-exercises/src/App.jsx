@@ -7,6 +7,10 @@ import './App.css'
 import './BigCat.css';
 import './components/BitcoinRates';
 import './components/countdownTimer';
+import { Container } from "@mui/material";
+import Emoji from "./components/Emoji";
+
+
 
 const cats = [
   { id: 1, name: 'Cheetah', latinName: 'Acinonyx jubatus', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/TheCheethcat.jpg/320px-TheCheethcat.jpg' },
@@ -108,6 +112,16 @@ function AddCatForm({ onAddCat }) {
   )
 }
 
+const EmojiRender = () => {
+  return (
+    <Container>
+      <h1>Emoji Mood Changer</h1>
+      {/* Render the Emoji component */}
+      <Emoji />
+    </Container>
+  );
+};
+
 
 const Calculator = () => {
   //Create new states to store/update the values
@@ -207,6 +221,9 @@ function App() {
         <Calculator />
       </div>
       <div>
+        <Emoji/>
+      </div>
+      <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -229,5 +246,7 @@ function App() {
     </>
   )
 }
+
+
 
 export default App
